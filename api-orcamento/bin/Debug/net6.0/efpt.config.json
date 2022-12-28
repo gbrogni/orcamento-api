@@ -1,0 +1,1557 @@
+﻿{
+   "CodeGenerationMode": 3,
+   "ContextClassName": "Context",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "api_orcamento",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[MvtAcessoActiveDirectory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoAjuda]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoAtualizacaoPeriodo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoCfgAtendentePermissao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoEstacao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoGrupo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoGrupoMembro]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoMensagem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoPermissao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoProcesso]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoUsuario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoUsuarioCliente]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoUsuarioConsultaColuna]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoUsuarioEmpresa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoUsuarioERP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoUsuarioFavorito]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoUsuarioFornecedor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoUsuarioHistoricoAcesso]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoUsuarioModulo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoUsuarioRepresentante]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoUsuarioSupervisor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoUsuarioTransportadora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoVersao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtAcessoVersaoReferencia]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCadCentroCusto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCadCentroCustoTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCadCidade]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCadCliente]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCadCotacaoMoeda]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCadEnvioEmail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCadenvioEmailDestinatario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCadFuncionario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCadGrupoEmpresa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCadGrupoEmpresaItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCadMoeda]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCadNivelHierarq]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCadNivelHierarqCentroCusto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCadOrganograma]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCadProduto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCtbCadLancamentoCCustoContaDesp]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCtbCadLancamentoCentroCustoConta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCtbContaContabil]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCtbFinanciamento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCtbFinanciamentoCaptacao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCtbFinanciamentoParcela]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCtbFinanciamentoParcelaOrcamento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCtbIndicadores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCtbIndicadoresDados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCtbOrcamentoCapitais]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCtbOrcamentoCapitaisCapa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCtbOrcamentoCapitaisParcelas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCtbPacote]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCtbPacoteConta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCtbPacoteResponsavel]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCtbPlanoConta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtCusProduto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtEngProduto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtEstPosicaoMensal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtFatRepresentante]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGeoCep]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGeoCidade]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGeoEstrutura]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGeoEstruturaItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGeoEstruturaTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGeoPerimetro]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGeoPerimetroVinculo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoAdministrador]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoAnaliseCausa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoAnaliseCausaEfeito]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoAnaliseCausaPlanoAcao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoAnaliseCausaPlanoAcaoAnexo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoAnaliseCausaPlanoAcaoHistorico]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoAnalisePorque]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoCfgCaderno]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoContratoLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialAcao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialArea]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialAtributo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialCfgFechamento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialConfigOrcDespesa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialConfigOrcVenda]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialConfigPDIPrazo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialIndicador]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialIndicadorAtributo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialIndicadorCCusto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialIndicadorCtb]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialIndicadorDependencia]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialIndicadorEmpresa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialIndicadorMatrizResultado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialIndicadorOrcVenda]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialIndicadorVariacao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialIniciativa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialMatrizResultado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialMatrizResultadoImportacao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialMeta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialModelo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialModeloAtributo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialNivel]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialObjetivo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialPermissao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialRealizado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialRealizadoAnexo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialUnidadeNegocio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialVisao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialVisaoItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDadoGerencialVisaoUsuario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRECfgLiberacaoAbas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRECfgLiberacaoModelo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRECfgProjecaoConta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDREConsultaSalva]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDREConsultaSalvaCenario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDREConsultaSalvaControle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDREContas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDREContasContasContabeis]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDREContasDivisoes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDREContasEmpresaCalculada]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDREContasFormulas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDreContasNatureza]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDREDados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDREDadosBI]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDREDadosContaContabil]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDREDadosContaContabilBI]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDREDadosDetalha]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDREImpressao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDreModeloAjusteContabil]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDREModelos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDREResultadoManual]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRESimulacao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRESimulacaoAnexo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRESimulacaoCampoOrcVenda]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRESimulacaoCenario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRESimulacaoCfgBase]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRESimulacaoCfgBaseCapa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRESimulacaoCfgBaseContaProporcao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRESimulacaoCfgBaseTipoAjuste]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRESimulacaoCfgContas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRESimulacaoCfgContasProporcao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRESimulacaoCfgContasValorAjuste]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRESimulacaoDados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRESimulacaoDadosDetalha]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRESimulacaoOrcCustoMP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRESimulacaoOrcCustoMPValor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRESimulacaoPeriodos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRESimulacaoPermissao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDRESimulacaoSimOrcVenda]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoDREVerificacaoCtbModelo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoIndicadorBloqueio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoIndicadorContrato]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoIndicadorContratoCctb]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoIndicadorContratoCfg]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoIndicadorContratoConfig]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoIndicadorContratoDespCC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoIndicadorContratoInd]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoIndicadorContratoIndGer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoIndicadorContratoOrcVendas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoIndicadorContratoPerm]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoIndicadorContratoResu]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoIndicadorGenerico]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoPainelPermissaoCadastro]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoPainelPermissaoCriacao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoPainelVisao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoPainelVisaoArea]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoPainelVisaoAreaColuna]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoPainelVisaoAreaLinha]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoPainelVisaoObjeto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoPainelVisaoObjetoFaixa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoPainelVisaoObjetoIndicador]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoPainelVisaoObjetoIndicadorEmpresa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoPainelVisaoPermissaoGrupo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoPainelVisaoPermissaoUsuario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtGestaoPainelVisaoSlide]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtMenuAgendamento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtMenuAgendamentoErro]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtMenuAgendamentoLock]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtMenuAgendamentoLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtMenuAgendamentoPermissao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtMenuAjuda]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtMenuDiasUteis]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtMenuEmpresa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtMenuFeriados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtMenuItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtMenuItemReferencia]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtMenuLock]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtMenuModulo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtMenuPendencia]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtMenuProcesso]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtMenuSistema]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoBalancoPartida]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoBalancoPartidaCfgBaixa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoBloqueioContaContabil]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoCfgCtbGeral]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoCfgCtbGeralAdicaoExclusao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoCfgCtbGeralBaseLucroContas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoCfgCtbGeralEquivalencia]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoCfgCtbGeralFilial]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoConfigConta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoConfigContaContas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoConfigContaNatureza]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoConfigContaPM]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoConfigContaSalario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoConfigContaValor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoConfigJustificativaDespesa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoConfigJustificativaPrazo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoConfigOrcDespesa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoConfigVenda]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoContaControlada]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoContaControladaCCExcecao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoCotacaoMoeda]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoCustoProduto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoGestorOrcamento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoGrupoContabilizacao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoGrupoContabilizacaoItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoGrupoContabilizacaoItemNatureza]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoGrupoContabilizacaoItemPercMes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoGrupoContabilizacaoItemPM]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoLiberacaoCentroCusto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoMatDespesaDireta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoMatrizDespesaDireta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoMovimentoPartida]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoNaturezaFinanceira]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoOrcamento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoOrcamentoDespesa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoOrcamentoDespesaDetalha]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoOrcamentoDespesaJustifica]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoOrcamentoDetalhe]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoOrcamentoLiberacao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoOrcamentoLiberacaoOrcEspecifico]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoOrcamentoManual]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoOrcamentoPessoas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoRevisaoDespesa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoSimulacaoOrcVenda]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoSimulacaoOrcVendaCampo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoSimulacaoOrcVendaItemCampo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoSimulacaoOrcVendaItemValor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoTipoInvestimento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoVenda]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoVendaCfgConversao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoVendaCfgConversaoItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoVendaCfgInclusao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoVendaCfgInclusaoVersao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoVendaHistAlteracao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoVendaTabPreco]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoVendaTabPrecoItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoVendaTabPrecoMes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoVendaVersao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoVendaVersaoTeste]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtOrcamentoVersaoOrcVenda]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtRhbtCargos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtRhOrcamentoSalarial]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtRhSitMensalFuncion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsConsulta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsConsultaUsuario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsDashFiltro]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsDashFiltroTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsDashGeraEstatistica]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsDashObjeto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsDashObjetoEstatistica]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsDashObjetoFiltro]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsDashObjetoFiltroOrigem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsDashObjetoItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsDashObjetoItemFaixa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsDashObjetoItemOrigem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsDashObjetoNivel]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsDashPermissaoCriacao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsDashPermissaoGrupo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsDashPermissaoUsuario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsDashRecipiente]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsDashRecipientePosicao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsDashVisao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsDashVisaoFiltro]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsPermissaoDadosCfg]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtStatsPermissaoImpUsuario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtTempPermissaoCentroCusto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasCadastroPlanoMeta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasCfgAcessoUsuario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasCfgEmailDinamico]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasCfgEmailDinamicoEmp]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasCfgEquipePermissao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasCfgFiltroAdicional]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasCfgUsuarioExterno]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstatisticaCadastro]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstatisticaConsultaSalvaApp]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstatisticaConsultaSalvaPermissaoApp]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstatisticaModulosApp]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstatisticaPermissaoApp]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaConsulta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaConsultaColuna]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaConsultaColunaOpcao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaConsultaColunaOpcaoTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaConsultaMes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaConsultaSalva]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaConsultaSalvaCapa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaConsultaTipoAgrupamento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaConsultaValor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaConsultaValorOpcao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaConsultaValorOpcaoTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaConsultaValorOpcaoVinculo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaCorPercent]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaFaturamento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaImpLogEmail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaImportacaoCfg]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaImportacaoCfgCampo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaMetaCliente]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaPermissaoColunaExibicao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaPermissaoDados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaPermissaoGrupoValor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaPermissaoUsuarioDados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaPermissaoUsuarioEstatistica]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaPermissaoUsuarioEstatisticaNova]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasEstruturaPermissaoUsuarioValor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasHistoricoMensal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasLockAtualizacaoEstatistica]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasTipoEstatistica]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasTipoEstatisticaAgrupamento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasTipoEstatisticaAgrupamentoCampo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasTipoEstatisticaAgrupamentoSimultaneo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasTipoEstatisticaCFOP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasTipoEstatisticaImportacao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasTipoEstatisticaImportacaoDias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasTipoEstatisticaImportacaoEmpresas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MvtVendasTipoEstatisticaLogImportacao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[gravaCustoItensFaturados]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[FirstDayOfMonth]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[FormatDate]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[FormatNumber]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getAtingimento]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getCidadeCliente]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getCodMesorregiaoCidade]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getCodMicrorregiaoCidade]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getContaBloqueada]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getContaSalarioDataCCustoDescDespFixa]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getContaSalarioDataCCustoIntegracao]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getCotacaoMoeda]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getCotacaoMoedaConsideraOrc]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getCotacaoMoedaOrcamento]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getCountPermissaoDadoGerencial]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getCountPermissaoEdicaoDadoGerencial]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getEhLoteZeramentoContabil]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[GetEngenhariaExplodida]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getFantasiaEmpresa]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[GetInsumoEngenharia]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[GetMateriaisEngenhariaProduto]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getMesorregiaoCidade]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getMicrorregiaoCidade]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getNomeCentroCusto]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getNomeContaContabil]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getNomeEmpresa]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getNomeOrcamento]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getNomeRepresentanteAtual]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getNomeTipoCC]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getOrgNivelCentroCustoRegua]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getOrgNomeNivelCentroCusto]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getOrgResponsavelCentroCusto]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getPermissaoDadoGerencial]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getPermissaoEdicaoDadoGerencial]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getRegiaoCidade]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getRepresentanteAtual]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getSaldoInicialFinanciamento]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getSaldoInicialFinanciamentoOrcamento]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getStatsBimestre]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getStatsRegiaoEstado]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getStatsSemanaAno]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getStatsSemestre]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getStatsTrimestre]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getStatusPrazo]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getTempCentroCustoLiberado]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getTempEmpresaCCustoLiberado]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getTipoCentroCusto]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getTipoConta]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getTipoContaCCExcecao]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getTipoContaMatricial]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getTipoContaSalarioPorData]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getTipoContaSalarioPorDataCCusto]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getTipoContaTemp]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getUltimoMaterialCustoProduto]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getUsuarioRespPacoteConta]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getValoresFinanciamento]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getValoresFinanciamentoOrcamento]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[getValorLoteZeramento]",
+         "ObjectType": 2
+      }
+   ],
+   "UiHint": "DESKTOP-N9LAKIF\\SQLEXPRESS.Movtech",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
