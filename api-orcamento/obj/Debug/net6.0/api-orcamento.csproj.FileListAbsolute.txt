@@ -291,3 +291,6 @@ C:\Users\estagiario4\Desktop\orcamento-app-master\api-orcamento\api-orcamento\ob
 C:\Users\estagiario4\Desktop\orcamento-app-master\api-orcamento\api-orcamento\obj\Debug\net6.0\api-orcamento.pdb
 C:\Users\estagiario4\Desktop\orcamento-app-master\api-orcamento\api-orcamento\obj\Debug\net6.0\api-orcamento.genruntimeconfig.cache
 C:\Users\estagiario4\Desktop\orcamento-app-master\api-orcamento\api-orcamento\obj\Debug\net6.0\ref\api-orcamento.dll
+C:\Users\estagiario4\Desktop\orcamento-app-master\api-orcamento\api-orcamento\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\estagiario4\Desktop\orcamento-app-master\api-orcamento\api-orcamento\bin\Debug\net6.0\System.Web.Http.dll
+C:\Users\estagiario4\Desktop\orcamento-app-master\api-orcamento\api-orcamento\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
