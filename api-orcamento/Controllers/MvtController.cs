@@ -35,6 +35,10 @@ namespace api_orcamento.Controllers
         }).Take(1000);
 
       return Ok(await query.ToListAsync());
+
+      //var sqlCommand = $"select top 100 codProduto, nomeProduto, month(data) as mes, sum(valorVenda),  sum(valorVenda/custoUni) as  vlrCusto  FROM MvtVendasEstruturaConsultaMes WHERE YEAR(data) = " + ano + " GROUP BY codProduto, nomeProduto, month(data)";
+      //var executeSQL = await _context.MvtVendasEstruturaConsultaMes.FromSqlRaw(sqlCommand).ToListAsync();
+      //return Ok(executeSQL);
     }
 
     [HttpGet]
