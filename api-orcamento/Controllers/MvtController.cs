@@ -29,7 +29,7 @@ namespace api_orcamento.Controllers
           CodProduto = d.CodProduto,
           NomeProduto = d.NomeProduto,
           CustoUni = d.CustoUni,
-          Mes = d.Data,
+          Data = d.Data,
           ValorVenda = d.ValorVenda,
           CustoTotal = d.CustoTotal
         }).Take(1000);
