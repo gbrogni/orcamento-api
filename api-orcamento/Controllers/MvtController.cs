@@ -36,7 +36,7 @@ namespace api_orcamento.Controllers
 
       return Ok(await query.ToListAsync());
 
-      //var sqlCommand = $"select top 100 codProduto, nomeProduto, month(data) as mes, sum(valorVenda),  sum(valorVenda/custoUni) as  vlrCusto  FROM MvtVendasEstruturaConsultaMes WHERE YEAR(data) = " + ano + " GROUP BY codProduto, nomeProduto, month(data)";
+      //var sqlCommand = $"select top 100 codProduto, nomeProduto, month(data) as mes, sum(valorVenda),  sum(custoTotal), custoUni  FROM MvtVendasEstruturaConsultaMes WHERE YEAR(data) = " + ano + " GROUP BY codProduto, nomeProduto, month(data), custoUni";
       //var executeSQL = await _context.MvtVendasEstruturaConsultaMes.FromSqlRaw(sqlCommand).ToListAsync();
       //return Ok(executeSQL);
     }
@@ -56,6 +56,18 @@ namespace api_orcamento.Controllers
          }).Take(1000);
 
       return Ok(await query.ToListAsync());
+    }
+
+
+    [HttpGet]
+    [Route("/GetCountRecord")]
+    public  int GetCountRecord(int ano)
+    {
+      int count = _context.MvtVendasEstruturaConsultaMes
+        .Where(d => d.Data.Year == ano)
+        .Select(d => d.CodProduto).Distinct().Count();
+
+      return count;
     }
   }
 }
